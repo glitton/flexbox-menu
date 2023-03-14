@@ -10,17 +10,18 @@
   <body>
     <header>
       <!-- Logo -->
-      <div>
+      <span>
         <img
           src="./images/tea-cozy-logo.png"
           alt="Tea Cozy Logo"
           class="logo"
         />
-      </div>
+      </span>
       <!-- End of Logo -->
       <!-- Nav Items -->
+
       <nav>
-        <ul class="nav-items">
+        <ul class="nav">
           <li class="nav-list">
             <a href="#" class="nav-link">Mission</a>
           </li>
@@ -34,21 +35,34 @@
       </nav>
       <!-- End of Nav Items -->
     </header>
-    <div class="hero-container">
-      <div class="hero-tagline-container">
-        <h2 class="hero-title">Our Mission</h2>
-        <h4 class="hero-tagline">
-          Handpicked, Artisinally Curated, Free Range, Sustainable, Small Batch,
-          Fair Trade, Organic Tea
-        </h4>
-      </div>
-      <div class="hero-img-container">
-        <img
-          src="./images/mission-background.jpeg"
-          alt="berry parfait"
-          class="hero-img"
-        />
-      </div>
-    </div>
+    <main class="container">
+      <!-- hero -->
+      <section class="hero">
+        <div class="hero-center">
+          <h2 class="hero-title">Our Mission</h2>
+          <h4 class="hero-tagline">
+            Handpicked, Artisinally Curated, Free Range, Sustainable, Small
+            Batch, Fair Trade, Organic Tea
+          </h4>
+        </div>
+      </section>
+      <!-- end of hero -->
+      <!-- tea of the month -->
+      <section class="tea-month-center">
+        <div class="tea-month-text">
+          <h2 class="tea-month-title">Tea of the Month</h2>
+          <h4 class="tea-month-tagline">What's Steeping at The Tea Cozy</h4>
+        </div>
+        <div class="tea-month-img-container">
+          <div class="tea-month-image-3cols">
+            <img src="./images/berry-blitz.jpeg" alt="berry tea" />
+            <img src="./images/spiced-rum.jpeg" alt="spiced rum tea" />
+            <img src="./images/donut.jpeg" alt="donut" />
+          </div>
+          <div class="tea-month-image-2cols"></div>
+        </div>
+      </section>
+      <!-- end tea of the month -->
+    </main>
   </body>
 </html>
