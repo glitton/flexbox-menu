@@ -46,7 +46,7 @@ Nav / Logo
  */
 
 nav {
-  border-bottom: 1px solid #fbd1a2;
+  border-bottom: 1px solid #ddd8d6;
   height: 69px;
   position: sticky;
   top: 0;
@@ -178,4 +178,24 @@ Locations
 }
 .location-text {
   margin-bottom: 1rem;
+}
+
+/* 
+==============
+Footer
+==============
+ */
+
+.footer-container {
+  height: 200px;
+}
+.footer-title,
+.footer-email {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.copyright {
+  margin-left: 20px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
 }
